@@ -1,123 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilo.css">
-    <title>Document</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="estilo.css">
+        <title>Document</title>
 
-</head>
+    </head>
 
-<body>
-    <h1 class="main-title">Lista de contatos</h1>
-    <div class="list-wrapper">
-        <ul class="list">
-            <li class="list-item">
-                <div class="list-item__imagem">
-                    <img src="imagens/1.jpg" alt="Brennan George">
-                </div>
-                <div class="list-item__content">
-                    <p class="list-item__name">
-                        Brennan George
-                    </p>
-                    <p class="list-item__email">
-                        brennan.george@example.com
-                    </p>
-                </div>
-                <div class="list-item__action">
-                    <a href="#"><img src="imagens/delete.png" alt="Delete"></a>
-                    <a href="#"><img src="imagens/edit.png" alt="Edite"></a>
-                </div>
-            </li>
-            <li class="list-item">
-                <div class="list-item__imagem">
-                    <img src="imagens/2.jpg" alt="Adam Weaver">
-                </div>
-                <div class="list-item__content">
-                    <p class="list-item__name">
-                        Adam Weaver
-                    </p>
-                    <p class="list-item__email">
-                        adam.weaver@example.com
-                    </p>
-                </div>
-                <div class="list-item__action">
-                    <a href="#"><img src="imagens/delete.png" alt="Delete"></a>
-                    <a href="#"><img src="imagens/edit.png" alt="Edite"></a>
-                </div>
-            </li>
-            <li class="list-item">
-                <div class="list-item__imagem">
-                    <img src="imagens/3.jpg" alt="Troy Butler">
-                </div>
-                <div class="list-item__content">
-                    <p class="list-item__name">
-                        Troy Butler
-                    </p>
-                    <p class="list-item__email">
-                        troy.butler@example.comm
-                    </p>
-                </div>
-                <div class="list-item__action">
-                    <a href="#"><img src="imagens/delete.png" alt="Delete"></a>
-                    <a href="#"><img src="imagens/edit.png" alt="Edite"></a>
-                </div>
-            </li>
-            <li class="list-item">
-                <div class="list-item__imagem">
-                    <img src="imagens/4.jpg" alt="Isobel Lewis">
-                </div>
-                <div class="list-item__content">
-                    <p class="list-item__name">
-                        Isobel Lewis
-                    </p>
-                    <p class="list-item__email">
-                        isobel.lewis@example.com
-                    </p>
-                </div>
-                <div class="list-item__action">
-                    <a href="#"><img src="imagens/delete.png" alt="Delete"></a>
-                    <a href="#"><img src="imagens/edit.png" alt="Edite"></a>
-                </div>
-            </li>
-            <li class="list-item">
-                <div class="list-item__imagem">
-                    <img src="imagens/5.jpg" alt="Lisa Garcia">
-                </div>
-                <div class="list-item__content">
-                    <p class="list-item__name">
-                        Lisa Garcia
-                    </p>
-                    <p class="list-item__email">
-                        lisa.garcia@example.com
-                    </p>
-                </div>
-                <div class="list-item__action">
-                    <a href="#"><img src="imagens/delete.png" alt="Delete"></a>
-                    <a href="#"><img src="imagens/edit.png" alt="Edite"></a>
-                </div>
-            </li>
-            <li class="list-item">
-                <div class="list-item__imagem">
-                    <img src="imagens/6.jpg" alt="Carolyn Silva">
-                </div>
-                <div class="list-item__content">
-                    <p class="list-item__name">
-                        Carolyn Silva
-                    </p>
-                    <p class="list-item__email">
-                        carolyn.silva@example.com
-                    </p>
-                </div>
-                <div class="list-item__action">
-                    <a href="#"><img src="imagens/delete.png" alt="Delete"></a>
-                    <a href="#"><img src="imagens/edit.png" alt="Edite"></a>
-                </div>
-            </li>
-        </ul> 
-    </div>
-</body>
+    <body>
+        <!-- Título principal da página -->
+        <h1 class="main-title">Lista de contatos</h1>
 
+        <!-- Contêiner da lista de contatos -->
+        <div class="list-wrapper">
+            <!-- Lista não ordenada para os itens da lista de contatos -->
+            <ul class="list">
+                <!-- Item da lista de contato 1 -->
+                <li class="list-item">
+                    <!-- Imagem do contato -->
+                    <div class="list-item__imagem">
+                        <img src="imagens/1.jpg" alt="Brennan George">
+                    </div>
+
+                    <!-- Conteúdo do contato -->
+                    <div class="list-item__content">
+                        <p class="list-item__name">
+                            Brennan George
+                        </p>
+                        <p class="list-item__email">
+                            brennan.george@example.com
+                        </p>
+                    </div>
+
+                    <!-- Ações do contato (excluir e editar) -->
+                    <div class="list-item__action">
+                        <a href="#"><img src="imagens/delete.png" alt="Delete"></a>
+                        <a href="#"><img src="imagens/edit.png" alt="Edite"></a>
+                    </div>
+                </li>
+
+                <!-- Item da lista de contato 2 -->
+                <li class="list-item">
+                    <!-- Imagem do contato -->
+                    <div class="list-item__imagem">
+                        <img src="imagens/2.jpg" alt="Adam Weaver">
+                    </div>
+
+                    <!-- Conteúdo do contato -->
+                    <div class="list-item__content">
+                        <p class="list-item__name">
+                            Adam Weaver
+                        </p>
+                        <p class="list-item__email">
+                            adam.weaver@example.com
+                        </p>
+                    </div>
+
+                    <!-- Ações do contato (excluir e editar) -->
+                    <div class="list-item__action">
+                        <a href="#"><img src="imagens/delete.png" alt="Delete"></a>
+                        <a href="#"><img src="imagens/edit.png" alt="Edite"></a>
+                    </div>
+                </li>
+
+                <!-- Item da lista de contato 3 -->
+                <li class="list-item">
+                    <!-- Imagem do contato -->
+                    <div class="list-item__imagem">
+                        <img src="imagens/3.jpg" alt="Troy Butler">
+                    </div>
+
+                    <!-- Conteúdo do contato -->
+                    <div class="list-item__content">
+                        <p class="list-item__name">
+                            Troy Butler
+                        </p>
+                        <p class="list-item__email">
+                            troy.butler@example.comm
+                        </p>
+                    </div>
+
+                    <!-- Ações do contato (excluir e editar) -->
+                    <div class="list-item__action">
+                        <a href="#"><img src="imagens/delete.png" alt="Delete"></a>
+                        <a href="#"><img src="imagens/edit.png" alt="Edite"></a>
+                    </div>
+                </li>
+
+                <!-- Item da lista de contato 4 -->
+                <li class="list-item">
+                    <!-- Imagem do contato -->
+                    <div class="list-item__imagem">
+                        <img src="imagens/4.jpg" alt="Isobel Lewis">
+                    </div>
+
+                    <!-- Conteúdo do contato -->
+                    <div class="list-item__content">
+                        <p class="list-item__name">
+                            Isobel Lewis
+                        </p>
+                        <p class="list-item__email">
+                            isobel.lewis@example.com
+                        </p>
+                    </div>
+
+                    <!-- Ações do contato (excluir e editar) -->
+                    <div class="list-item__action">
+                        <a href="#"><img src="imagens/delete.png" alt="Delete"></a>
+                        <a href="#"><img src="imagens/edit.png" alt="Edite"></a>
+                    </div>
+                </li>
+
+                <!-- Item da lista de contato 5 -->
+                <li class="list-item">
+                    <!-- Imagem do contato -->
+                    <div class="list-item__imagem">
+                        <img src="imagens/5.jpg" alt="Lisa Garcia">
+                    </div>
+
+                    <!-- Conteúdo do contato -->
+                    <div class="list-item__content">
+                        <p class="list-item__name">
+                            Lisa Garcia
+                        </p>
+                        <p class="list-item__email">
+                            lisa.garcia@example.com
+                        </p>
+                    </div>
+
+                    <!-- Ações do contato (excluir e editar) -->
+                    <div class="list-item__action">
+                        <a href="#"><img src="imagens/delete.png" alt="Delete"></a>
+                        <a href="#"><img src="imagens/edit.png" alt="Edite"></a>
+                    </div>
+                </li>
+
+                <!-- Item da lista de contato 6 -->
+                <li class="list-item">
+                    <!-- Imagem do contato -->
+                    <div class="list-item__imagem">
+                        <img src="imagens/6.jpg" alt="Carolyn Silva">
+                    </div>
+
+                    <!-- Conteúdo do contato -->
+                    <div class="list-item__content">
+                        <p class="list-item__name">
+                            Carolyn Silva
+                        </p>
+                        <p class="list-item__email">
+                            carolyn.silva@example.com
+                        </p>
+                    </div>
+
+                    <!-- Ações do contato (excluir e editar) -->
+                    <div class="list-item__action">
+                        <a href="#"><img src="imagens/delete.png" alt="Delete"></a>
+                        <a href="#"><img src="imagens/edit.png" alt="Edite"></a>
+                    </div>
+                </li>
+            </ul> 
+        </div>
+    </body>
 </html>
